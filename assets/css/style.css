@@ -11406,6 +11406,16 @@ div.rainbow-gradient-btn span {
   font-size: 16px;
   font-weight: 500;
 }
+
+/* Mobile view: font size 14px for screen width 768px or less */
+@media (max-width: 768px) {
+  a.rainbow-gradient-btn span,
+button.rainbow-gradient-btn span,
+div.rainbow-gradient-btn span {
+    font-size: 15px;
+  }
+}
+
 a.rainbow-gradient-btn::before, a.rainbow-gradient-btn::after,
 button.rainbow-gradient-btn::before,
 button.rainbow-gradient-btn::after,
@@ -18915,6 +18925,7 @@ iframe {
   font-family: var(--font-primary);
   margin-bottom: 16px;
   display: inline-block;
+  font-size: 60px;
 }
 .slider-style-1 .inner .title span {
   display: inline-block;
@@ -23682,6 +23693,6 @@ iframe {
   font-family: "Paytone One", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 40px;
+  font-size: 33px;
   margin: 0; /* Remove default margin from h3 */
 }
