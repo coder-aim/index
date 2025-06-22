@@ -15010,7 +15010,7 @@ span.rainbow-demo-btn {
 }
 @media only screen and (max-width: 1199px) {
   .aiwave-cta .content-left {
-    padding: 0;
+    padding: 15px;
   }
 }
 .aiwave-cta .content-left .description {
